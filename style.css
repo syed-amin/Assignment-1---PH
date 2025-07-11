@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* background img */
 header {
     background: url("Assets/Hero-bg.png");
@@ -11,10 +12,12 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 nav {
     justify-content: space-between;
     display: flex;
 }
+
 /* button style  */
 .button {
     font-size: 16px;
@@ -27,10 +30,12 @@ nav {
     padding: 10px 15px;
     cursor: pointer;
 }
+
 button:hover {
     background: rgb(185, 255, 231);
     color: black;
 }
+
 /* bg style */
 section {
     padding: 50px 10px;
@@ -68,101 +73,144 @@ section {
 
 /* Action Section */
 .action {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  align-items: center;
-  gap: auto;
-  background: #fff9f9; 
-  padding-left: 141px ;
-  padding-right: 159px;
-  border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: auto;
+    background: #f5f7ff;
+    padding-left: 141px;
+    padding-right: 159px;
+    border-radius: 24px;
 }
 
 .text-content {
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .text-content .title {
-  font-size: 42px;
-  color:rgba(37, 36, 50, 1);
-  font-weight: bold;
-  margin-bottom: 20px;
+    font-size: 42px;
+    color: rgba(37, 36, 50, 1);
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .text-content p {
-  font-size: 24px;
-  color:rgba(37, 36, 50, 0.5);
-  margin-bottom: 30px;
-  line-height: 30px 0px;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 30px;
+    line-height: 30px 0px;
 }
 
 .text-content .btn {
-  background: #5d5fef;
-  font-size: 14px;
-  padding: 12px 20px;
-  border-radius: 8px;
-  color: #fff;
-  font-weight: 600;
-  transition: background 0.3s;
+    background: #5d5fef;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    transition: background 0.3s;
 }
 
 .text-content .btn:hover {
-  background: #4446e2;
+    background: #4446e2;
 }
+
 /* image */
 .action-img img {
-  width: 403px;
-  height: 328px;
-  border-radius: 48px;
-  box-shadow: 20px 10px 30px rgb(69, 10, 10);
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+    box-shadow: 20px 10px 30px rgb(69, 10, 10);
 }
 
 
 /* Productive Users Section */
 
 .productive-users {
-  width: 1140px; 
-  height: 306px;
-  margin: 80px auto; 
-  padding: 80px 50px;
-  background: rgba(78, 71, 255, 0.1);
-  border-radius: 24px;
-  text-align: center; 
-  
+    width: 1140px;
+    height: 306px;
+    margin: 80px auto;
+    padding: 80px 50px;
+    background: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    text-align: center;
+
 }
 
 .productive-users h2 {
-  font-size: 38px;
-  font-weight: bold;
-  color:rgba(37, 36, 50, 1);
-  margin-bottom: 40px;
+    font-size: 38px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    margin-bottom: 40px;
 }
 
 .productives-content {
-  display: flex;
-  justify-content: center;
-  gap: 158px;
+    display: flex;
+    justify-content: center;
+    gap: 158px;
 }
 
 .productive h2 {
-  font-size: 80px;
-  font-weight: bold;
-  color:blue;
-  margin-bottom: 5px;
-  width: 178px;
-  height: 97px;
+    font-size: 80px;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 5px;
+    width: 178px;
+    height: 97px;
 }
 
 .productive p {
-  font-size: 20px;
-  color:rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
+/* Touch Section */
+.touch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 186px 114px;
+    gap: auto;
+    background: #f5f7ff;
+}
 
+.touch-left {
+    flex: auto;
+}
 
+.touch-title {
+    font-size: 97px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
 
-
+.touch-right {
+    flex: 1;
+}
+.touch-right form {
+    display: flex;
+    flex-direction: column;
+}
+.touch-right label {
+    font-size: 18px;
+    font-weight: medium;
+    margin-bottom: 19px;
+    color: #333;
+}
+.touch-right input,
+.touch-right textarea {
+    padding: 14px 18px;
+    font-size: 20px;
+    border: 2px solid #340303;
+    margin-bottom: 20px;
+    outline: none;
+}
+.touch-right input::placeholder,
+.touch-right textarea::placeholder {
+    font-size: 20px;
+}

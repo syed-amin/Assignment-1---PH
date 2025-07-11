@@ -1,4 +1,7 @@
 /* global  */
+body{
+    background-color: rgb(255, 255, 255);
+}
 * {
     margin: 0;
     padding: 0;
@@ -57,11 +60,70 @@ section {
 }
 
 .ban-title {
-    color: rgb(37, 36, 50);
+    color: rgb(21, 20, 28);
     font-size: 65px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .banner button {
     margin: 20px 0;
 }
+
+/* Action Section */
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: auto;
+  background: #fff9f9; 
+  padding-left: 141px ;
+  padding-right: 159px;
+  border-radius: 24px;
+}
+
+.text-content {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-content .title {
+  font-size: 42px;
+  color:rgba(37, 36, 50, 1);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 24px;
+  color:rgba(37, 36, 50, 0.5);
+  margin-bottom: 30px;
+  line-height: 30px 0px;
+}
+
+.text-content .btn {
+  background: #5d5fef;
+  font-size: 14px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.text-content .btn:hover {
+  background: #4446e2;
+}
+/* image */
+.action-img img {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+  box-shadow: 20px 10px 30px rgb(69, 10, 10);
+}
+
+
+
+

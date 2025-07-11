@@ -132,7 +132,7 @@ section {
 
 .productive-users {
     width: 1140px;
-    height: 306px;
+    height: 356px;
     margin: 80px auto;
     padding: 80px 50px;
     background: rgba(78, 71, 255, 0.1);
@@ -277,4 +277,33 @@ section {
   background: #b9ffe7;
   transform: scale(1.2);
   box-shadow: 0 8px 6px black;
+}
+
+/* big png -Ready to focus better */
+
+.box2 {
+    background: #f5f7ff;
+  border-radius: 15px;
+  width: 1140px;
+  height: 696.77;
+  padding: 71px 150px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  color: #000000;
+}
+
+p {
+  color:rgba(0, 0, 0, 0.5);
+  margin: 10px 0 20px;
+}
+
+.image {
+  margin-top: 10px;
+  width: 840px;
+  height: 364.77px;
+  border-radius: 48px;
 }

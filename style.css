@@ -307,3 +307,45 @@ p {
   height: 364.77px;
   border-radius: 48px;
 }
+
+/* <!--🧪 CHALLENGES -Review Section  --> */
+
+.feedback {
+  padding: 40px;
+  text-align: center;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(78, 71, 255, 0.1);
+  border-radius: 14px;
+  padding: 20px;
+  width: 260px;
+  text-align: left;
+}
+
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}

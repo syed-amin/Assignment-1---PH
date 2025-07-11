@@ -85,7 +85,7 @@ section {
 }
 
 .text-content {
-    max-width: 500px;
+    padding: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,6 +145,7 @@ section {
     font-size: 38px;
     font-weight: bold;
     color: rgba(37, 36, 50, 1);
+
     margin-bottom: 40px;
 }
 
@@ -187,6 +188,7 @@ section {
     font-size: 97px;
     font-weight: bold;
     color: rgba(0, 0, 0, 1);
+    padding: 100px;
 }
 
 .touch-right {
@@ -213,4 +215,66 @@ section {
 .touch-right input::placeholder,
 .touch-right textarea::placeholder {
     font-size: 20px;
+}
+
+/* 6. Footer Section */
+.footer {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px 20px;
+  
+  text-align: center;
+  margin-bottom: 104px;
+}
+
+.logo2 {
+  font-size: 100px;
+  font-weight:bold;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  color:rgba(137, 135, 161, 1);
+  margin-bottom: 40px;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav li a:hover {
+  color: #4e4eff;
+}
+/* extra style with link and button  */
+/*CHALLENGES- button animation */
+.btn1 {
+  font-size: 16px;
+  font-weight: bold;
+  background: white;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 4px 6px black;
+}
+
+.btn1:hover {
+  background: #b9ffe7;
+  transform: scale(1.2);
+  box-shadow: 0 8px 6px black;
 }
